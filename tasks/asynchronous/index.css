@@ -1,0 +1,31 @@
+body {
+  background-size: cover;
+  background-image: url("./weather.jpg");
+  font-size: 20px;
+}
+
+.weather-form {
+  margin-bottom: 50px;
+}
+
+.weather-img {
+  border-radius: 50%;
+}
+
+button {
+  background-color: yellow;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(37, 104, 150, 0.3);
+  border-radius: 10px;
+  color: white;
+}
